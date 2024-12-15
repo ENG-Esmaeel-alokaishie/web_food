@@ -1,0 +1,46 @@
+:root{
+    --maincolor : #27AE69;
+    --bluecolor : #2980b9;
+}
+.login {
+    /* width: 360px; */
+    height: min-content; 
+     padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+    margin-top: 20px;
+    /* background-color: red; */
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: linear-gradient(120deg,var(--maincolor),var(--bluecolor) ) !important;
+}
+.login input,
+.login select{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px var(--maincolor) solid;
+}
+button[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: var(--maincolor);
+    color: white;
+    border: 0px solid black;
+}
+button[type="submit"]:hover {
+    background-color: white;
+    color: var(--maincolor);
+    border: 2px solid var(--maincolor);
+}

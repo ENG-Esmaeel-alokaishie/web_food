@@ -1,0 +1,43 @@
+
+.main{
+    font-family: 'cairo';
+    margin: 0 auto;
+    width: 300px;
+    background-color: aliceblue;
+    box-shadow: 4px 4px 10px wheat;
+    /* padding: 50%; */
+    text-align: center;
+    align-items: center;
+    padding-top: 5px;
+}
+.main input{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.main input[type="file"]{
+    display: none;
+}
+.main label,.main button{
+
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    /* height: 30px; */
+    width: 30%;
+    margin-top: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+
+
+}
+.main a{
+    text-decoration: none;
+    color:rgb(174, 157, 125);
+    font-weight: bold;
+   
+    
+}

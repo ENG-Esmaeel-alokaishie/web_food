@@ -1,0 +1,77 @@
+:root{
+    --maincolor : #27AE69;
+    --bluecolor : #2980b9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: linear-gradient(120deg,var(--maincolor),var(--bluecolor) ) !important;
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+
+ h1 {
+    color: var(--maincolor);
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+ form {
+    font-size: 20px;
+}
+
+ .frm {
+    margin-bottom: 12px;
+   
+}
+
+input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: var(--maincolor);
+    color: white;
+}
+input[type="submit"]:hover {
+    background-color: white;
+    color: var(--maincolor);
+    border: 2px solid var(--maincolor);
+}
+.login input[type="number"],
+.login input[type="password"]{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px black solid;
+}
+.signup_link{
+    margin-top: 10px;
+    text-align: center;
+}
+.signup_link a{
+    color: var(--maincolor);
+    text-decoration: none;
+  }
+  .signup_link a:hover{
+    text-decoration: underline;
+  }
